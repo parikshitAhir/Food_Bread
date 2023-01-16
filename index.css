@@ -1,0 +1,720 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+container {
+  margin: 0;
+  padding: 0;
+  max-width: 1200vw;
+}
+
+.first_1 {
+  background-color: rgb(250, 247, 247);
+  height: 80vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.homeimg {
+  height: 80vh;
+  width: 50vw;
+}
+.first_2 {
+  flex-direction: column;
+  display: flex;
+}
+.logoimg {
+  width: 8vw;
+  height: 14vh;
+  justify-content: center;
+  display: flex;
+  margin-left: 18rem;
+  margin-top: 1rem;
+}
+.pg_1 {
+  width: 33vw;
+  background-color: rgb(250, 247, 247);
+  height: 60vh;
+  margin-left: 6rem;
+}
+
+.header_1 {
+  font-size: 2.8rem;
+  display: flex;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: Montserrat, sans-serif !important;
+}
+.pregraph {
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: Montserrat, sans-serif !important;
+}
+
+.btn_1 {
+  display: flex;
+  margin-left: 12rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 3rem;
+}
+.btn_1:hover {
+  background-color: rgb(48, 46, 46);
+  color: white;
+  font-family: Montserrat, sans-serif !important;
+}
+/* //------------------------------second--------------------------------// */
+
+.second {
+  background-image: url("bred2.jpeg");
+  background-size: cover;
+  height: 110vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header_2 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 4px;
+  display: flex;
+  font-family: Montserrat, sans-serif !important;
+}
+.main_card {
+  display: flex;
+  grid-gap: 40px;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.card1 {
+  background-color: aliceblue;
+  height: 73vh;
+  width: 23vw;
+  margin-bottom: 2rem;
+}
+.img1 {
+  height: 37vh;
+  width: 20vw;
+  display: flex;
+  margin: 1.5rem;
+}
+.wt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif !important;
+  letter-spacing: 3px;
+}
+.text {
+  display: flex;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-family: Montserrat, sans-serif !important;
+}
+.mo {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+/* //--------------------therd--------------------// */
+.therd_1 {
+  background-color: rgb(255, 255, 255);
+  height: 80vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.therd_2 {
+  flex-direction: column;
+  display: flex;
+}
+.header_3 {
+  font-size: 2.8rem;
+  display: flex;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: Montserrat, sans-serif !important;
+}
+.therdimg {
+  width: 50vw;
+  display: flex;
+}
+.pg_2 {
+  width: 33vw;
+  background-color: rgb(255, 255, 255);
+  height: 60vh;
+  margin-left: 10rem;
+  margin-top: 7rem;
+}
+.btn_3 {
+  display: flex;
+  margin-left: 10rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 3rem;
+}
+.btn_3:hover {
+  background-color: rgb(48, 46, 46);
+  color: white;
+  font-family: Montserrat, sans-serif !important;
+}
+/* //--------------------four-----------------// */
+
+.fourmain {
+  background-image: url("four1.jpg");
+  background-size: cover;
+  height: 140vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.h1four {
+  color: rgb(253, 250, 250);
+  font-size: 50px;
+  letter-spacing: 4px;
+  display: flex;
+  font-family: Montserrat, sans-serif !important;
+}
+.small_card {
+  display: grid;
+  row-gap: 30px;
+  column-gap: 30px;
+  grid-template-columns: 400px 400px 350px;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.scard_1 {
+  background-color: rgba(9, 9, 9, 0.4);
+  backdrop-filter: blur(2px);
+  width: 23rem;
+  height: 11rem;
+  border: 2px solid rgb(254, 253, 253);
+  border-radius: 20px;
+  padding: 12px;
+}
+.hemant:hover {
+  background-image: url(BREAD.jpg);
+}
+.hemant2:hover {
+  background-image: url(bread2.jpg);
+}
+.sch2 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: Montserrat, sans-serif !important;
+  color: rgb(23, 168, 225);
+}
+.scp {
+  font-family: Montserrat, sans-serif !important;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+}
+
+/* //---------------------five-----------------------// */
+
+.five_main {
+  width: 100vw;
+  height: 120vh;
+  background-color: rgb(250, 247, 247);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.five_hed {
+  margin-top: rem;
+}
+.fiveh2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif !important;
+  font-size: 40px;
+  width: 60rem;
+  letter-spacing: 2px;
+}
+.btn_5 {
+  display: flex;
+  margin-left: 25rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 3rem;
+}
+.btn_5:hover {
+  background-color: rgb(48, 46, 46);
+  color: white;
+  font-family: Montserrat, sans-serif !important;
+}
+.fiveimg {
+  width: 60vw;
+  height: 80vh;
+  display: flex;
+}
+
+/* //-------------------six-------------------// */
+
+.six_main {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-image: url("bred6.jpg");
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  color: white;
+}
+.pg6 {
+  font-size: 50px;
+  font-family: Montserrat, sans-serif !important;
+  letter-spacing: 3px;
+  margin-top: 6rem;
+}
+.card6_main {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -1rem;
+  margin-top: 5rem;
+}
+.cir6 {
+  width: 80px;
+  height: 80px;
+  margin-left: -3rem;
+  padding-top: rem;
+  border-radius: 80%;
+  background-color: white;
+  position: relative;
+  bottom: 20px;
+  left: 120px;
+}
+.dou6 {
+  width: 60px;
+  height: 40px;
+  margin-top: 1rem;
+  margin-left: 0.6rem;
+}
+.card6 {
+  background-color: rgb(255, 159, 80);
+  width: 17vw;
+  height: 50vh;
+}
+.cp6 {
+  margin: 1rem;
+  display: flex;
+  justify-content: end;
+  padding-top: 5rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.ch26 {
+  display: flex;
+  margin: 1rem;
+  margin-top: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* //------------------------seven------------------// */
+
+.seven_main {
+  background-image: url("sev5.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteact {
+  flex-direction: column;
+  text-align: center;
+  margin-left: -39rem;
+  margin-bottom: 4rem;
+}
+.h2seven {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 8rem;
+}
+.creat {
+  display: flex;
+  justify-content: space-evenly;
+}
+.email {
+  display: contents;
+}
+.sevp {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sevin {
+  margin-left: rem;
+  width: 15rem;
+  height: 2.5rem;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.email__1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.btn7 {
+  display: flex;
+  background-color: black;
+  color: white;
+  margin-left: 5rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 2rem;
+}
+.btn7:hover {
+  background-color: rgb(247, 245, 245);
+  color: rgb(12, 12, 12);
+  font-family: Montserrat, sans-serif !important;
+}
+
+.footer {
+  display: flex;
+  margin-top: 5rem;
+  text-align: start;
+  margin-left: 7rem;
+  font-family: Montserrat, sans-serif !important;
+}
+.find {
+  width: 8rem;
+}
+.fh3 {
+  font-size: 20px;
+}
+
+.hour {
+  margin-left: 4rem;
+  gap: -10px;
+  /* font-size: 20px; */
+}
+.hoh4 {
+  margin-bottom: 1rem;
+}
+.hop {
+  margin-bottom: 1rem;
+}
+.call {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  gap: 1rem;
+}
+
+/* //----------------------media query----------------// */
+
+@media screen and (max-width: 1322px) and (min-width: 960px) {
+  /* //-------------four------------------------------// */
+  .small_card {
+    display: grid;
+    row-gap: 21px;
+    column-gap: 20px;
+    grid-template-columns: 354px 315px;
+    margin-top: 4rem;
+  }
+  .scard_1 {
+    width: 17rem;
+    height: 11rem;
+    padding: 8px;
+  }
+  .fourmain {
+    height: 206vh;
+  }
+  /* //-----------------------first------------------//  */
+  .logoimg {
+    width: 13vw;
+    height: 14vh;
+    margin-left: 13rem;
+  }
+  .btn_1 {
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+  /* //----------------second-------------------------// */
+  .card1 {
+    width: 26vw;
+  }
+
+  /* //------------------------therd----------------------// */
+
+  .pg_2 {
+    width: 33vw;
+    margin-left: 9rem;
+    margin-top: 1rem;
+  }
+  .btn_3 {
+    margin-left: 5rem;
+  }
+
+  /* //------------------------five----------------------// */
+  .fiveimg {
+    margin-left: 12rem;
+  }
+  /* //------------------------six----------------------// */
+  .card6 {
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 960px) and (min-width: 400px) {
+  /* //-----------------------first------------------//  */
+  .first_1 {
+    height: 164vh;
+    width: 213vw;
+  }
+  .homeimg {
+    height: 80vh;
+    width: 213vw;
+    margin-top: 42rem;
+  }
+  .first_2 {
+    flex-direction: column;
+    display: flex;
+    margin-left: -39rem;
+  }
+  .logoimg {
+    width: 51vw;
+    height: 20vh;
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+  .header_1 {
+    font-size: 3.8rem;
+    width: 33rem;
+  }
+  .pg_1 {
+    width: 136vw;
+    height: 55vh;
+    margin-left: -4rem;
+  }
+  .pregraph {
+    font-size: 2.2rem;
+  }
+  .btn_1 {
+    font-size: 21px;
+  }
+  /* //-----------------------second------------------//  */
+
+  .second {
+    height: 337vh;
+    width: 213vw;
+  }
+  .main_card {
+    display: block;
+  }
+  .card1 {
+    height: 89vh;
+    width: 153vw;
+    margin-bottom: 5rem;
+  }
+  .img1 {
+    height: 44vh;
+    width: 133vw;
+    margin: 2.5rem;
+    padding-top: 2rem;
+  }
+  .wt {
+    font-size: 33px;
+  }
+  .text {
+    font-size: 25px;
+    margin: 2rem;
+  }
+  .mo {
+    font-size: 26px;
+  }
+  /* //-----------------------therd------------------//  */
+
+  .therd_1 {
+    height: 208vh;
+    width: 214vw;
+    display: block;
+  }
+  .therdimg {
+    width: 208vw;
+    margin-top: 23rem;
+  }
+  .pg_2 {
+    width: 138vw;
+    margin-left: 10rem;
+    margin-top: 9rem;
+  }
+  .header_3 {
+    font-size: 3.8rem;
+    letter-spacing: 7px;
+  }
+  .btn_3 {
+    margin-left: 12rem;
+    font-size: 18px;
+  }
+
+  /* //-----------------------four------------------//  */
+
+  .fourmain {
+    height: 379vh;
+    width: 213vw;
+  }
+  .small_card {
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: none;
+    margin-top: 4rem;
+  }
+  .scard_1 {
+    width: 32rem;
+    height: 15rem;
+    border-radius: 51px;
+  }
+  .sch2 {
+    font-size: 30px;
+  }
+  .scp {
+    font-size: 26px;
+}
+
+  /* //-----------------------five------------------//  */
+
+.five_main {
+    width: 214vw;
+    height: 172vh;
+}
+.fiveh2 {
+    font-size: 53px;
+    width: 47rem;
+}
+.btn_5 {
+    margin-left: 18rem;
+    font-size: 18px;
+    margin-top: 4rem;
+}
+.fiveimg {
+    width: 190vw;
+    height: 88vh;
+}
+
+  /* //-----------------------six------------------//  */
+
+  .six_main {
+    height: 350vh;
+    width: 213vw;
+}
+.card6_main {
+    display: block; 
+}
+.card6 {
+    width: 105vw;
+    height: 53vh;
+}
+.cp6 {
+    font-size: 26px;
+}
+.ch26 {
+    margin-top: 3rem;
+    font-size: 30px;
+}
+.pg6 {
+    font-size: 56px;
+    display: flex;
+    text-align: center;
+}
+
+.cir6 {
+    bottom: -59px;
+    left: 117px;
+}
+  /* //-----------------------seven------------------//  */
+
+  .seven_main {
+    width: 212vw;
+    height: 103vh;
+}
+.conteact {
+    flex-direction: column;
+    text-align: center;
+    margin-left: -17rem;
+    margin-top: -10rem;
+}
+.h2seven {
+  font-size: 68px;
+  margin-top: 6rem;
+}
+.sevp {
+  font-size: 39px;
+}
+.sevin {
+  font-size: 23px;
+}
+.btn7 {
+  font-size: 20px;
+}
+.fh3 {
+  font-size: 29px;
+}
+.footer {
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+}
