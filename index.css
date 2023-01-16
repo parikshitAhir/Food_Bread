@@ -522,7 +522,7 @@ container {
 @media screen and (max-width: 960px) and (min-width: 300px) {
   /* //-----------------------first------------------//  */
   .first_1 {
-    height: 183vh;
+    height: 182vh;
     width: 231vw;
   }
   .homeimg {
@@ -538,21 +538,26 @@ container {
   .logoimg {
     width: 51vw;
     height: 20vh;
-    margin-left: 7rem;
+    margin-left: 8rem;
     margin-top: 2rem;
   }
   .header_1 {
     font-size: 3.8rem;
-    width: 33rem;
+    width: 37rem;
   }
   .pg_1 {
     width: 136vw;
     height: 55vh;
     margin-left: -4rem;
   }
+  .pg_01{
+    margin-left: 3rem;
+    /* width: 30rem; */
+  }
   .pregraph {
     font-size: 2.2rem;
     margin-left: 0rem;
+    width: 30rem;
   }
   .btn_1 {
     font-size: 21px;
@@ -567,7 +572,7 @@ container {
     display: block;
   }
   .card1 {
-    height: 112vh;
+    height: 99vh;
     width: 153vw;
     margin-bottom: 5rem;
   }
@@ -595,7 +600,7 @@ container {
     display: block;
   }
   .therdimg {
-    width: 208vw;
+    width: 219vw;
     margin-top: 31rem;
   }
   .pg_2 {
@@ -608,7 +613,7 @@ container {
     letter-spacing: 7px;
   }
   .btn_3 {
-    margin-left: 12rem;
+    margin-left: 10rem;
     font-size: 18px;
   }
 
@@ -666,8 +671,8 @@ container {
     display: block; 
 }
 .card6 {
-    width: 105vw;
-    height: 53vh;
+    width: 136vw;
+    height: 56vh;
 }
 .cp6 {
     font-size: 26px;
