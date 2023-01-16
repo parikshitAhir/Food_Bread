@@ -270,7 +270,7 @@ container {
 }
 .btn_5 {
   display: flex;
-  margin-left: 25rem;
+  
   border: 1px solid black;
   border-radius: 20px;
   justify-content: center;
@@ -519,26 +519,26 @@ container {
   }
 }
 
-@media screen and (max-width: 960px) and (min-width: 400px) {
+@media screen and (max-width: 960px) and (min-width: 300px) {
   /* //-----------------------first------------------//  */
   .first_1 {
-    height: 164vh;
-    width: 213vw;
+    height: 183vh;
+    width: 231vw;
   }
   .homeimg {
     height: 80vh;
     width: 213vw;
-    margin-top: 42rem;
+    margin-top: 48rem;
   }
   .first_2 {
     flex-direction: column;
     display: flex;
-    margin-left: -39rem;
+    margin-left: -35rem;
   }
   .logoimg {
     width: 51vw;
     height: 20vh;
-    margin-left: 5rem;
+    margin-left: 7rem;
     margin-top: 2rem;
   }
   .header_1 {
@@ -552,6 +552,7 @@ container {
   }
   .pregraph {
     font-size: 2.2rem;
+    margin-left: 0rem;
   }
   .btn_1 {
     font-size: 21px;
@@ -559,19 +560,19 @@ container {
   /* //-----------------------second------------------//  */
 
   .second {
-    height: 337vh;
-    width: 213vw;
+    height: 430vh;
+    width: 231vw;
   }
   .main_card {
     display: block;
   }
   .card1 {
-    height: 89vh;
+    height: 112vh;
     width: 153vw;
     margin-bottom: 5rem;
   }
   .img1 {
-    height: 44vh;
+    height: 48vh;
     width: 133vw;
     margin: 2.5rem;
     padding-top: 2rem;
@@ -589,13 +590,13 @@ container {
   /* //-----------------------therd------------------//  */
 
   .therd_1 {
-    height: 208vh;
-    width: 214vw;
+    height: 211vh;
+    width: 231vw;
     display: block;
   }
   .therdimg {
     width: 208vw;
-    margin-top: 23rem;
+    margin-top: 31rem;
   }
   .pg_2 {
     width: 138vw;
@@ -614,8 +615,8 @@ container {
   /* //-----------------------four------------------//  */
 
   .fourmain {
-    height: 379vh;
-    width: 213vw;
+    height: 422vh;
+    width: 231vw;
   }
   .small_card {
     display: grid;
@@ -638,7 +639,7 @@ container {
   /* //-----------------------five------------------//  */
 
 .five_main {
-    width: 214vw;
+    width: 231vw;
     height: 172vh;
 }
 .fiveh2 {
@@ -646,7 +647,7 @@ container {
     width: 47rem;
 }
 .btn_5 {
-    margin-left: 18rem;
+    margin-left: 0rem;
     font-size: 18px;
     margin-top: 4rem;
 }
@@ -659,7 +660,7 @@ container {
 
   .six_main {
     height: 350vh;
-    width: 213vw;
+    width: 231vw;
 }
 .card6_main {
     display: block; 
@@ -688,7 +689,7 @@ container {
   /* //-----------------------seven------------------//  */
 
   .seven_main {
-    width: 212vw;
+    width: 231vw;
     height: 103vh;
 }
 .conteact {
